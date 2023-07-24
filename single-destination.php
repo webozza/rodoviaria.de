@@ -7,28 +7,38 @@
 </div>
 <div class="post_container">
 <div class="post_title">
-    <img src="<?= get_template_directory_uri() . '/img/icons/location.png' ?>">
+    <i class="fa-solid fa-location-dot"></i>
     <h2><?php the_title() ?></h2>
 </div>
 <div class="post_content">
-        <p><strong>Pegar ônibus para <?php the_field('destination') ?> de Lindóia e não sabe como?</strong></p>
-        <p><strong>Comprar passagem de ônibus nunca foi tão fácil e prático quanto agora!</strong></p>
-        <p>Nós da Bus temos cobertura sobre quase todo Brasil! Temos um comparativo de todos os ônibus disponíveis para as principais cidades e pontos turísticos em todo território nacional, inclusive para <?php the_field('destination') ?> de Lindóia, sabia? É possível ver os horários de partida e chegada, quantidade de paradas durante seu trajeto, mas principalmente, e o que todos nós procuramos quando vamos procurar por passagens, os melhores preços no mercado.
-        </p>
-        <p>Atualmente os ônibus de viagem com destino a <?php the_field('destination') ?> de Lindóia, contam com diferentes comodidades, e as informações sobre as comodidades disponíveis no ônibus que escolheu estão todas descritas para você quando comprar sua passagem. Nada melhor que viajar com ar condicionado, tomadas elétricas ou Wi-Fi, não é?
-        </p>
-        <p>Aqui na página da Bus, também é possível identificar quais serão os melhores preços de passagem para os próximos dias. As principais informações sobre as rotas mais procuradas para <?php the_field('destination') ?> de Lindóia também estão à mostra nesta página.</p>
-        <p> Se sua viagem já tem data programada para volta, por que não já comprar a sua passagem de volta junto? Comprar a passagem de volta junto com sua passagem de ida, é sempre uma boa pedida, evitando possíveis transtornos, como a falta de passagem para a data que desejava.</p>
+        <p><strong>Everything you need to know about the <?php the_field('destination') ?> bus station!</strong></p>
+
+
         <p>
-        Não está viajando sozinho? Compre a passagem para você e toda família de uma vez só, garantindo que estejam próximos durante toda a viagem, inclusive dentro do ônibus!
+            Welcome to Rodoviária.de, your complete source of information about bus stations in almost all of Brazil! Here, you'll find comprehensive details on a number of Bus Terminals, including <?php the_field('destination') ?>.
         </p>
         <p>
-        Vocês podem ver os resultados da busca por diferentes formas! Podendo ser classificados por preço, horário de partida ou chegada. Também é possível a inclusão de filtros de acordo com paradas ou empresas de ônibus. A personalização e autonomia para montar sua viagem é toda sua!
+            With our website, you will have access to essential information, such as contact, infrastructure, restrooms and location of the <?php the_field('destination') ?> bus station. Knowing all this is essential to plan a smooth trip, whether traveling alone or with a partner.
         </p>
         <p>
-        Devemos lembrar que: Quando disponível, também informaremos sobre outras atividades, hotéis ou até mesmo pacotes de viagens, que possam ser também do seu interesse e que também tenham destino para <?php the_field('destination') ?> de Lindóia.
+            Here you will find specific details about the structure of the <?php the_field('destination') ?> bus station, allowing you to prepare for any eventuality during your stay at the terminal. It doesn't matter if your trip is already booked to <?php the_field('destination') ?> or if you need to make a bus connection there, our website has all the important information for you.
+        </p>
+        <p>
+            For families traveling together, our detailed information will help you to perfectly prepare for any needs that may arise during your visit to the <?php the_field('destination') ?> Bus Terminal.
+        </p>
+        <p> 
+            We know that traveling by bus can be an unforgettable experience and that it is often more than just getting to your destination. It is the journey that allows us to contemplate the landscapes of Brazil, appreciate cultural diversity and create valuable memories. 
+        </p>
+        <p>
+            With Rodoviária.de, you will have access to the best information with the minimum of effort. Our platform was designed to make searching for details about bus stations as simple and efficient as possible.
+        </p>
+        <p>
+            Therefore, if you are planning your trip to <?php the_field('destination') ?> or any other destination, count on us to provide reliable and complete information about bus stations throughout Brazil. Travel with peace of mind, knowing that we have everything you need to make your travel experience the best it can be. We are here to help you every step of the way. Bon voyage!
         </p>
         </div>
+      </div>
+      <div class="faq-container">
+        <?php include('faq.php')?>
       </div>
     </div>
 </div>

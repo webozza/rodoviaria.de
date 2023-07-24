@@ -26,10 +26,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 :root {
   --primary-bg: #21302a;
-  --primary-green: #f8c05b;
   --primary-yellow: #f8c05b;
   --primary-blue: #609ef1;
-
+  --main-black:black;
 }
 
 /* Layout
@@ -55,12 +54,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 8px solid var(--primary-green);
+  border-bottom: 8px solid var(--primary-yellow);
   z-index: 10;
   transition: 0.3s;
 }
 .site-branding {
-  background-color: var(--primary-bg);
+  background-color: var(--main-black);
   border-radius: 10px 35px 2px 6px;
 }
 
@@ -68,7 +67,7 @@ body {
   width: 70%;
 }
 .logo {
-  max-width: 150px;
+  max-width: 70px;
 }
 /* 
                           Navbar Design 
@@ -109,8 +108,24 @@ body {
   padding: 10px;
 }
 
+.navigation ul li svg path{
+  fill: var(--primary-yellow);
+}
+.navigation ul li:nth-child(3) path{
+  fill:none !important;
+  stroke: var(--primary-yellow);
+}
+.navigation ul li:nth-child(3) line{
+  stroke: var(--primary-yellow);
+}
+.navigation ul li:hover .navigation > ul li:nth-child(3) path{
+stroke: white !important;
+}
+.navigation ul li:hover .navigation ul li:nth-child(3) line{
+  stroke: white !important;
+}
 .navigation ul li:hover {
-  background-color: var(--primary-green);
+  background-color: var(--primary-yellow);
   border-radius: 20px;
   color: white;
 }
@@ -149,7 +164,7 @@ body {
   cursor: pointer;
 }
 .social i:hover {
-  color: var(--primary-green);
+  color: var(--primary-yellow);
 }
 .navigation-bottom-bar-text {
   padding-left: 20px;
@@ -205,7 +220,7 @@ body {
 }
 
 .mobile-menu ul li:active {
-  border: 3px solid var(--primary-green);
+  border: 3px solid var(--primary-yellow);
 }
 
 /* Home
@@ -330,7 +345,7 @@ body {
 }
 
 .post-link {
-  background-color: var(--primary-green);
+  background-color: var(--primary-yellow);
   height: 60px;
   width: 60px;
   display: flex;
@@ -385,7 +400,7 @@ a {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px 4px #e8efed;
-  color: var(--primary-green);
+  color: var(--primary-yellow);
   margin: 0 5px;
 }
 .prev {
@@ -399,14 +414,14 @@ span.swiper-pagination-bullet {
   width: 90px;
   background-color: transparent;
   border-radius: 5px;
-  border: 2px solid var(--primary-green)ed;
+  border: 2px solid var(--primary-yellow)ed;
 }
 
 .swiper-pagination {
   position: relative;
 }
 .swiper-pagination-bullet-active {
-  background-color: var(--primary-green) !important;
+  background-color: var(--primary-yellow) !important;
 }
 
 /* 
@@ -417,10 +432,10 @@ span.swiper-pagination-bullet {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: var(--primary-green);
+  color: var(--primary-yellow);
 }
 
-.post_title > img {
+.post_title > i {
   width: 13px;
   height: 17px;
   padding-right: 10px;
@@ -520,7 +535,7 @@ span.swiper-pagination-bullet {
 }
 .footer {
   width: 90%;
-  background-color: #213029;
+  background-color: var(--main-black);
   border-radius: 50px 0px 0px 0px;
   padding: 20px;
 }
@@ -541,7 +556,7 @@ span.swiper-pagination-bullet {
 .divider {
   height: 200px;
   width: 2px;
-  background-color: #56a8413d;
+  background-color: #4444446b;
   margin: auto 20px;
 }
 .about_us {
@@ -562,7 +577,7 @@ span.swiper-pagination-bullet {
   border-radius: 50%;
 }
 .company_us li {
-  background-color: var(--primary-green);
+  background-color: var(--primary-yellow);
   height: 30px;
   width: 40px;
   display: flex;
@@ -581,4 +596,42 @@ span.swiper-pagination-bullet {
 .footer_bottom {
   padding: 30px 0px;
   text-align: center;
+}
+
+/*
+                        FAQ  
+*/
+.faq-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin:20px auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 3px 0px;
+}
+.faq-item >.question {
+  cursor: pointer;
+  font-size: 15px;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.faq-item >.answer {
+  display: none;
+  color: #666;
+  padding: 10px 0px;
+}
+
+
+.bbb__search-engine .bbb__btn-main {
+  background-color: #fdbc23!important;
+  color: #fff!important;
+  border-color: transparent;
 }
