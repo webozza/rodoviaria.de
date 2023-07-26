@@ -575,3 +575,60 @@ a {
   color: rgb(62, 62, 62);
   line-height: 1.5rem;
 }
+
+/*city table*/
+.load-fuck {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-blue);
+}
+
+.fuck {
+  border: 0px solid;
+  width: 100%;
+  border-spacing: 10px 10px;
+}
+
+.fuck td {
+  border-width: 0 0px 0px 0;
+  box-shadow: 0px 1px 2px #3333334d;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.fuck .card {
+  padding: 10px;
+  text-align: center;
+}
+
+.fuck .card:hover {
+  box-shadow: 2px 2px 10px;
+}
+
+a.city-view-more {
+  text-align: right;
+  margin-right: 3%;
+  text-decoration: underline;
+  float: right;
+}
+
+.fuck tr.active {
+  display: table-row;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .fuck tr td {
+    width: 100%;
+  }
+
+  .elementor-1641
+    .elementor-element.elementor-element-df848b3
+    .elementor-heading-title {
+    font-size: 18px;
+  }
+
+  .single-product-bus-search {
+    height: 290px;
+  }
+}
