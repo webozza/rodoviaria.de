@@ -38,7 +38,7 @@
 		<div class="nav-bar">
 			<div class="site-branding">
 				<a href="<?= get_site_url() ?>">
-				<img class="logo" src="<?= get_template_directory_uri() . '/img/logo.png' ?>">
+				<img class="logo" src="<?= get_template_directory_uri()?>/img/logo.png">
 				</a>
 			</div>
 			<div class="navigation">
