@@ -3,11 +3,11 @@
 <?php get_header() ?>
 
 <?php
-    $destinationz = array(
+    $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => 50
+        'posts_per_page' => 50, // Show 50 posts per page initially
     );
-    $loopz = new WP_Query($destinationz);
+    $loop = new WP_Query($destinations);
 ?>
 <div class="main">
     <div class="section section-hero"
@@ -29,8 +29,8 @@
         </div>
         <div class='post-container'>
             <?php
-        while ($loopz->have_posts()) {
-            $loopz->the_post();
+        while ($loop->have_posts()) {
+            $loop->the_post();
             ?>
             <div class="single-post">
                 <?php $thumbnail_url =  get_the_post_thumbnail_url(get_the_ID(), 'full');
@@ -59,9 +59,9 @@
     </div>
     <script>
         jQuery(function ($) {
+            var page = 2; // Start from the second page since the first page is already loaded
             var container = $('.post-container');
             var button = $('#load-more-posts');
-            var currentPage = parseInt(button.attr('data-current-page'));
 
             button.on('click', function () {
                 $.ajax({
@@ -69,7 +69,7 @@
                     type: 'post',
                     data: {
                         action: 'load_more_posts',
-                        page: currentPage,
+                        page: page,
                     },
                     beforeSend: function () {
                         button.text('Loading...'); // Display loading text
@@ -77,8 +77,7 @@
                     success: function (response) {
                         if (response) {
                             container.append(response); // Append the new posts
-                            currentPage++;
-                            button.attr('data-current-page', currentPage);
+                            page++;
                             button.text('Load More'); // Restore the button text
                         } else {
                             button.text('No more posts'); // Display message when no more posts to load
@@ -89,6 +88,7 @@
             });
         });
     </script>
+
 
 </div>
 
