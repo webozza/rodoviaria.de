@@ -43,8 +43,8 @@
 			</div>
 			<div class="navigation">
 				<div class="post-search">
-					<input type="text" placeholder='Search Cities'>
-					<button><i class="fa-solid fa-magnifying-glass"></i></button>
+					<!-- <input type="text" placeholder='Search Cities'>
+					<button><i class="fa-solid fa-magnifying-glass"></i></button> -->
 					<?php get_search_form(); ?>
 				</div>
 			</div>
