@@ -555,3 +555,27 @@ a {
 .hide {
   display: none !important;
 }
+
+
+/* page design  */
+.page-title{
+  text-align: center;
+  margin: 60px 0px;
+}
+.page-content{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+}
+.page-content h3{
+  margin-top: 40px;
+  font-size: 25px;
+
+}
+.page-content p{
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(62, 62, 62);
+  line-height: 1.5rem;
+}

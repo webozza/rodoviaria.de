@@ -1,0 +1,119 @@
+<?php //Template Name: Privacy Policy ?>
+<?php get_header()  ?>
+
+<h1 class='page-title'><?= get_the_title() ?></h1>
+<div class="page-content">
+    <p>BUS INTERATIVIDADE SOLUÇÕES E VIAGENS LTDA (Bus.com.br) , a legal entity governed by private law, duly registered with the CNPJ/MF under registration No. 451.517.870/0001-20, headquartered at Rua Humberto de Campos, No. 957, Leblon, Rio de Janeiro, CEP: 22430-190, hereinafter referred to as “BUS”, establishes these TERMS FOR   USE, hereinafter referred to as “TERMS OF USE”, corresponding to all services provided by BUS and whose purpose is to clarify and delimit the rules and conditions for installation, access and/or use, by natural or legal persons, domiciled in Brazil or abroad, hereinafter referred to as “USER”, of its applications, internet sites, contents, goods and services produced, made available, distributed or otherwise provided directly or through the electronic page of BUS, at the address “ https://www.bus.com.br/ ”, maintained and administered by BUS, under the terms and conditions described below .
+
+    When using the BUS electronic platform, the USER automatically declares that he has read and fully agrees with these TERMS OF USE, to which he adheres and agrees to submit.</p>
+    <h3>1) THE SERVICES</h3>
+    <p>1.1 BUS offers the USER a service of intermediation and acquisition of bus tickets; charter of buses and vehicles; accommodation and tourism sector reservations and services; through an electronic platform for researching the prices of services and other instruments and products related to displacement and tourism, in order to mediate the relationship between the USER and companies providing road services, accommodation, tourism and other companies providing services, upon payment of FEES AND CHARGES, when purchasing the product and/or service. 1.1.2 The USER is aware that BUS is not a transport and/or accommodation company, therefore it does not have its own fleet of vehicles or is a supplier of goods or services in the transport and accommodation sector. Any and all transport and/or accommodation services provided to the USER with the help of the BUS platform will always be provided by independent third parties, duly registered, supervised and authorized by the competent regulatory bodies to carry out the activity of passenger transport and/or accommodation services. These companies are not part of an economic group, nor legal partners or representatives of BUS, and will be solely responsible for fulfilling their obligations and guarantees under the law. 1.1.3 In addition to the aforementioned transport and/or accommodation companies, other services may be made available and accessed in connection with third-party promotional and commercial services and content, including advertising, over which BUS will not exercise control, therefore not implying in any form of endorsement or assumption of liability. 1.1.4 Terms of use and privacy policies of different companies may be applicable and required for the use of services and contents of third-party beneficiaries, the USER being subject to the conditions established therein.</p>
+    <h3>2) REQUIREMENTS AND RULES FOR USE OF THE SERVICES</h3>
+    <p>2.1 The user of the BUS services shall agree and comply with the present terms of use, and must register with the bus, via website, application or any other means that it may require, being responsible for compliance with their information and all those he indicates as passengers of road services, those who will enjoy the hosting service and/or recipients of the Tourism Service, whose data is subject to later validation, and other companies, service companies, service providers under the terms and conditions of these Terms of Use.</p>
+    <p>2.2 It may be necessary for you to register with BUS certain personal information, such as your name, address, cell phone number, identification document data and age, email address, as well as at least one valid payment method.</p>
+    <p>2.3 The USER is responsible for all activities carried out under his Account and agrees to always maintain the security and secrecy of the chosen username and password.</p>
+    <p>2.4 For the acquisition of the ticket and accommodation and tourism services, the USER must inform all the data that BUS may require, which may include, but is not limited to: (i) location; (ii) date and time of use; (iii) quantitative; (iv) name and identification data of the USER; (v) e-mail to receive the voucher; (vi) valid telephone number for purchase confirmation.</p>
+    <p>2.5 Once the search criteria are met, the platform will indicate to the USER the product and/or service available for the selected date and time, with a breakdown of the responsible service provider, the value and the FEES and CHARGES, among other information available on query page.</p>
+    <p>2.6 Once the purchase has been made and payment has been made, the USER will receive electronic mail registered by him, with the VOUCHER corresponding to the confirmation of the purchase, its validity and the availability of the product and/or service by the service provider.</p>
+    <p>2.7 The service provided by BUS does not exempt the USER from knowing the rules of the company providing the service and agreeing with the terms of the contract for its services.</p>
+    <p>2.8 All information and updates of the order will be sent directly to the USER's e-mail, informed by him at the time of registration, being his responsibility to receive and read the communications sent.</p>
+    <h3>3) BUS communication, USER PRIVACY and DATA USE</h3>
+<p>3.1 BUS will use the registered e-mail as the main communication channel with the USER to send confirmation of its operations and password requests and questions, for example.</p>
+<p>3.2 The USER must take care of the secrecy and security of his login and password that will determine his digital identity and identify all acts performed on his behalf, even if it is by a third party who has knowledge of such data.</p>
+<p>3.3 It is essential that the USER provide their correct and accurate data, as well as keep them updated, in case there is any change, under penalty of being civilly and criminally liable for damages resulting from the inaccuracy of the stored information.</p>
+<p>3.4 It is also the responsibility of the USER to leave the anti-spam systems configured in such a way that they do not interfere with the receipt of communications and materials from BUS, and no excuse is acceptable if he has not had access to any e-mail due to the nature of this block. or similar filter.</p>
+<p>3.5 In case of any incident with the login and password data, such as theft, misplacement, loss or even suspected breach of secrecy employed therein, the registered Internet user must change his password and immediately notify BUS, to avoid the occurrence of damage that can be difficult to repair.</p>
+<p>3.6 The BUS Privacy Policy is an integral and inseparable part of the Terms of Use and Conditions for using the company's services.</p>
+<p>3.7 The USER's registration data and access information will only be used by BUS to improve the browsing experience, improve the offer of services to its customers and to achieve its business objectives.</p>
+<p>3.8 The registration data and access information of USERS will not be provided to third parties, except in the case of providing data by court order.</p>
+<p>3.9 The USER undertakes to notify BUS immediately if he becomes aware of unauthorized use of his account, or even access to the account by unauthorized third parties.</p>
+
+<h3>4) Purchase of products and contracting of services</h3>
+<p>4.1 Only USERS who meet the conditions and fill in all the data correctly to complete the purchase procedure required for registration with BUS will be able to purchase products and services.</p>
+<p>4.2 Payment can be made using any payment method indicated in the BUS system, the company reserving the right to change them or impose new conditions at its discretion.</p>
+<p>4.3 BUS may validate the data provided by the USER, to authorize the purchase and travel of the passenger.</p>
+<p>4.4 BUS may cancel the purchase of tickets and/or accommodation, even after authorization of the purchase and issuance of the voucher, if the USER, PASSENGER or payment data are invalid, false or there is any suspicion, as well as effective proof purchase fraud.</p>
+<p>4.4.1 In the event of the previous item, the cancellation of tickets will be unilaterally, regardless of any judicial or extrajudicial notification.</p>
+<p>4.4.2 Even in the event of identification of inconsistent data or that reveal suspected irregularity in the transaction (fraud), BUS reserves the right, at its sole discretion and convenience, to cancel or suspend the registration of the USER, who does not exempt himself from his duty to always inform his correct data.</p>
+<p>4.5 When buying a product or contracting a service with BUS, the USER signs a contract and undertakes to pay for what he has purchased, as well as, when finalizing a reservation, he agrees with these Terms of Use and Conditions and with all the provisions of hiring and termination, with BUS or third parties, respecting the legal notices and payment conditions.</p>
+<p>4.6 After confirming payment, Internet users will receive an email with instructions for the product or service they have just purchased if the operation has been successfully completed.</p>
+<p>4.7 The amount paid will include both the cost of the ticket and the value of FEES and CHARGES, the amounts of which will be detailed on the receipt sent.</p>
+<p>4.7.1 The purchase will only be confirmed after confirmation of payment, BUS reserving the right to cancel the reservation made.</p>
+<p>4.7.2 For tickets in installments, interest may be added according to the number of installments.</p>
+<p>4.8 BUS is not responsible for any credit disapproval or failures at the time of purchase, as this is a procedure of the respective Credit Card Administrator used by the USER at the time of purchase. BUS is not aware of the reason for the disapproval of credit and/or other reasons for any failure in the process. If the purchase is rejected for these reasons, the USER must contact the Administrator of the card used at the time of purchase.</p>
+<p>4.9 BUS points out that the prices displayed on its platform can be modified after the purchase by the USER, with exception, when there is an obvious typing error in the price of the product or service offered, configuring an obvious loss to BUS or third parties, characterizing enrichment without cause, which is forbidden.</p>
+<p>4.9.1 If there is a price change motivated by the terms contained above, the customer may choose to complement the difference or cancel his order. If you opt for cancellation and your credit card has been debited with any amounts, these will be reversed free of charge to the USER.</p>
+<p>4.10 Intermediary companies and financial institutions may contact the USER to confirm information or carry out the payment process.</p>
+<p>4.11 The value of the ticket at the time of payment may be different from the value displayed at the time of search and research. The value of the ticket may be changed by the service company's system at any time.</p>
+<p>4.12 The promotions and discounts offered by the service provider are established for a limited time, with BUS not being liable for unsuccessful purchases in the event of an error during the operation, non-approval of payment, exhaustion of promotional seats or if the duration of the promotion reaches its end.</p>
+
+<h3>5) LIABILITY</h3>
+<p>5.1 BUS is not the owner or has any shareholding in the companies that sell its tickets through its platform, not being responsible, therefore, for any defects arising from the performance and provision of services by the companies providing the contracted services.</p>
+<p>5.2 The service provider company is solely responsible for any damages and losses that may be caused to the USER, passenger or their luggage, occurring during the execution of the transport contract and/or service provision.</p>
+<p>5.3 BUS is not responsible for any changes to the itinerary that may be requested by the service provider, such as delay in departure or arrival, alteration of the original route or cancellation of the trip; nor for accidents or injuries that occurred during transportation, loss or damage caused to the USER's luggage, or all others that occurred in the activities under the responsibility of the service provider.</p>
+<p>5.4 In cases where the USER or any third party initiates any type of claim or legal action against any of the transport companies that use the BUS platform, each and every one of the USERS involved in the claims or actions exempts BUS and its directors, managers, employees, agents, workers, representatives and attorneys from all responsibility for any defect caused in the provision of services by the service provider.</p>
+
+<h3>6) ROAD TICKET</h3>
+<p>6.1 It is the responsibility of the USER to collect the ticket from the company providing road services, if necessary, and must inform in advance times and forms of service and boarding locations.</p>
+<p>6.1.1 The voucher may not replace the ticket and invoice issued by the company providing road services, serving in this case only to aid and withdraw the ticket from the company providing road services.</p>
+<p>6.1.2 The company providing road services is responsible for the conditions and form of exchange of purchased tickets.</p>
+<p>6.2 To print the ticket, the PASSENGER must show up with an original identity document with a photograph.</p>
+<p>6.2.1 The PASSENGER may be the USER himself, or any other indicated by him when completing the purchase of the ticket on the BUS platform.</p>
+<p>6.3 The transportation of luggage must respect the legal provisions of ANTT, and must be dealt with directly with the company responsible for this service.</p>
+<p>6.4 The PASSENGER will be denied boarding or ordered to disembark, pursuant to art. 30, of Decree 2.521/1998, when:</p>
+<p>a) does not identify himself when required;</p>
+<p>b) in a state of intoxication;</p>
+<p>c) carrying a weapon, without authorization from the specific competent authority;</p>
+<p>d) transport or intend to ship products considered dangerous by specific legislation;</p>
+<p>e) transport or intend to take domestic or wild animals with you, without proper packaging or in violation of legal or regulatory provisions;</p>
+<p>f) intends to ship an object whose dimensions and packaging are incompatible with the package carrier;</p>
+<p>g) compromise the safety, comfort or peace of mind of other passengers;</p>
+<p>h) makes use of a sound device, after being warned by the vehicle's crew;</p>
+<p>i) demonstrate incontinence in behavior;</p>
+<p>j) refuse to pay the fee; It is</p>
+<p>k) uses smoking products inside the bus, in violation of the relevant legislation.</p>
+<p>6.5 The purchase, refund and cancellation of tickets purchased are subject to the correct filling in of bank details at the time of purchase and may be canceled or changed seats even after confirmation of payment according to the availability of the road service provider at the time of confirmation.</p>
+<p>6.6 The value of the ticket at the time of payment may be different from the value displayed at the time of search and research. The value of the ticket may be changed by the service company's system at any time.</p>
+<p>6.7 The USER is assured to request the transfer of the date or time of departure, provided that the request is made directly with the company providing road service, in the forms and conditions stipulated by it, at least 03 (three) hours in advance of the scheduled time for departure in the case of interstate travel. Intercity trips are subject to state rules and conditions, which may vary between states, changing the deadline for exchange or cancellation.</p>
+<p>6.8 Pursuant to article 8, paragraph 2 of ANTT Resolution no.</p>
+<p>6.9 FEES and CHARGES and possible interest are not part of the ticket price and are non-refundable.</p>
+<p>6.10 In cases of payment in installments with a credit card, the return of the amounts will be made according to the transfer from the Administrator to the Operator. Refunds for canceled tickets may take up to 90 days to start being credited to the card used, starting from the day the BUS requests it to the card administrator.</p>
+<p>6.11 Canceled bus tickets will be refunded according to the payment method used to make the purchase.</p>
+
+<h3>7) tour packages and accommodation</h3>
+<p>7.1 BUS also provides the USER with the acquisition of accommodation services in hotels and other establishments and tourist packages to different destinations, with predefined duration, accommodation and means of transport.</p>
+<p>7.2 The acquisition of accommodation services and/or tour package implies the USER's consent to the Terms of Use and Conditions of BUS accommodation and the respective service provider and/or travel operator responsible for providing the package.</p>
+<p>7.3 Following the acquisition of the accommodation reservation and/or tourist packages, the USER will receive an email at the indicated address with all the descriptions of what he had just acquired.</p>
+<p>7.4 BUS is only responsible for the reservation procedure for packages and resorts with regard to the search system and the blocking request, not being liable in the event of any error in the payment procedures, as it is beyond its sphere of action and interference.</p>
+<p>7.5 The hypotheses and possibilities of cancellation, withdrawal, reimbursement, transfer of date and modification of the accommodation and/or tour packages are provided for in the contract signed between the Internet user and the operator, and BUS does not have any interference in this commercial relationship.</p>
+<p>7.6 The data for registration and payment of the chosen reservation, hiring, cancellation, refund and rescheduling will follow the rules and conditions of the respective companies providing the contracted service, being the same company responsible for establishing the fine forecasts and payment deadlines, therefore, BUS does not have any interference with such rules.</p>
+<p>7.7 BUS is only responsible for the hotel reservation procedure with regard to the vacancy search system and the blocking request, not being liable in the event of any error in the payment procedures, as it is outside its sphere of action and interference.</p>
+<p>7.8 All complaints, claims and claims arising from the accommodation must be dealt with directly with that establishment, BUS is not competent to solve any relationship problems between the client and the hotel, also for damages or inconveniences experienced by the latter.</p>
+
+<h3>8) Copyright and intellectual property of the Portal</h3>
+<p>8.1 The commercial use of the name and expression BUS as a brand, business name or domain name, in addition to the contents of the electronic platform screens, as well as the programs, databases, networks, files that allow the Internet user to access and use through their account are the property of BUS and are protected by laws and international treaties on copyright, trademarks, patents, models and industrial designs.</p>
+<p>8.2 When accessing the platform, the USER declares that he will respect all intellectual property rights and those resulting from the protection of trademarks of the same, as well as all rights related to third parties that may be, or were, in some way, available on the platform. Simple access to the platform does not grant the USER any right to use the names, titles, words, phrases, brands, patents, literary and artistic works, images, among others, that are or were available therein.</p>
+<p>8.3 Reproduction of the contents described above is prohibited, except with prior written authorization from BUS or if they are intended for exclusively personal use and without the USER acquiring any rights over them under any circumstances.</p>
+<p>8.4 It is allowed to make only the temporary file of this platform, being prohibited its use for commercial, publicity or any other purpose that goes against the reality for which it was conceived, as defined in this document. The reproduction, distribution and dissemination, in whole or in part, of the texts, figures, graphics that make up this platform are also prohibited, without prior and express authorization from BUS, with only the printing of copies being permitted for personal use and archiving, without being separated the parts that allow to give the faithful and real understanding of its content and objective.</p>
+<p>8.5 The USER assumes any and all liability, civil and/or criminal, for the improper use of information, texts, graphics, brands, works, images, in short, any and all intellectual or industrial property rights on this platform.</p>
+<p>8.6 The material from BUS may be used with prior and express consent from BUS, and cannot be transferred to third parties, even if linked to the authorized subject for some reason.</p>
+<p>8.7 Any withdrawal of an advertisement, article, video, news or photograph reproduced here as a result of any complaint will be made and understood in context to avoid unpleasantness, not being, however, an acknowledgment of any infringement by BUS to the right of a third party.</p>
+<p>8.8 The photos and images used on this platform may not reflect their original size or current situation of the reproduced scenario, being merely illustrative.</p>
+
+<h3>9) Communication and USER Service</h3>
+<p>9.1 BUS communication will be done online either on its platform or by email. In this way, it is the USER's obligation to keep his e-mail address always updated and his message box active, being fully responsible for reading the information sent, not being able to claim ignorance or non-receipt of e-mails sent to him by BUS.</p>
+<p>9.2 The USER declares that he is aware that he does not have the right to demand the availability of the BUS platform, nor can he claim compensation for damages due to possible instabilities or the platform remaining temporarily offline, whatever the reason.</p>
+
+<h3>10) Modifications to these Terms and Conditions</h3>
+<p>10.1 These Terms of Use are subject to constant improvement and improvement, BUS reserves the right to unilaterally modify these Terms and Conditions of Use and its Privacy Policy at any time.</p>
+<p>10.2 Any changes promoted by BUS will appear on the platform and will be notified to the USER through the contact information indicated by him in the act of registration.</p>
+
+<h3>11) General Provisions</h3>
+<p>11.1 When placing the order, the USER declares that he is aware that the services contracted herein are merely intermediation, research and reservations for tickets and accommodation, whose services will be performed by the service provider and/or third parties indicated.</p>
+<p>11.2 The tolerance of any non-compliance with any of the clauses and conditions of this instrument will not constitute novation of the obligations stipulated herein, nor will it prevent or inhibit their enforceability at any time.</p>
+<p>11.3 This Portal is based on the official time of Brasilia.</p>
+<p>11.4 The Terms and Conditions of Use described herein are governed by the legislation of the Federative Republic of Brazil and visitors to the platform submit to the Forum of the Judicial District of the Capital of the State of Rio de Janeiro to settle any doubt, pending or litigation arising from this document.</p>
+
+
+</div>
+<?php get_footer()  ?>
