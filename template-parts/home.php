@@ -3,17 +3,11 @@
 <?php get_header() ?>
 
 <?php
-    $posts_per_batch = 50; // Number of posts to show in each batch
-    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-    $offset = ($paged - 1) * $posts_per_batch;
-
-    $destinations = array(
+    $destinationz = array(
         'post_type' => 'destination',
-        'posts_per_page' => $posts_per_batch,
-        'offset' => $offset,
-    );
-
-    $loop = new WP_Query($destinations);
+        'posts_per_page' => 50
+    )
+    $loopz = new WP_Query($destinations);
 ?>
 <div class="main">
     <div class="section section-hero"
@@ -35,8 +29,8 @@
         </div>
         <div class='post-container'>
             <?php
-        while ($loop->have_posts()) {
-            $loop->the_post();
+        while ($loopz->have_posts()) {
+            $loopz->the_post();
             ?>
             <div class="single-post">
                 <?php $thumbnail_url =  get_the_post_thumbnail_url(get_the_ID(), 'full');
