@@ -77,13 +77,14 @@ body {
   margin-bottom: -10px;
 }
 
-.navigation {
+.search-submit {
+  display: none;
 }
 
 .post-search {
   display: flex;
 }
-.post-search input {
+.post-search .search-field {
   border: none;
   background-color: var(--primary-yellow);
   font-size: 20px;
