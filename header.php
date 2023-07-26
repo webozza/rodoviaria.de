@@ -38,7 +38,7 @@
 		<div class="nav-bar">
 			<div class="site-branding">
 				<a href="<?= get_site_url() ?>">
-				<img class="logo" src="https://xn--rodoviria-51a.de/wp-content/themes/bruno/img/logo.png">
+				<img class="logo" src="https://xn--rodoviria-51a.de/wp-content/themes/bruno/img/logo/logo.png">
 				</a>
 			</div>
 			<div class="navigation">
