@@ -5,7 +5,7 @@
 <?php
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => -1,
+        'posts_per_page' => 50, // Show 50 posts per page initially
     );
     $loop = new WP_Query($destinations);
 ?>
@@ -55,8 +55,39 @@
         </div>
     </div>
     <div class="load-more-container">
-              <button class="load-more-button">Load More <span class='loading hide'><img  src="<?= get_template_directory_uri()?>/img/loading.gif" alt="" srcset=""></span></button>
-        </div>
+            <button id="load-more-posts" class="load-more-button">Load More <span class='loading hide'><img  src="<?= get_template_directory_uri()?>/img/loading.gif" alt="" srcset=""></span></button>
+    </div>
+    <script>
+        jQuery(function ($) {
+            var page = 2; // Start from the second page since the first page is already loaded
+            var container = $('.post-container');
+            var button = $('#load-more-posts');
+
+            button.on('click', function () {
+                $.ajax({
+                    url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                    type: 'post',
+                    data: {
+                        action: 'load_more_posts',
+                        page: page,
+                    },
+                    beforeSend: function () {
+                        button.text('Loading...'); // Display loading text
+                    },
+                    success: function (response) {
+                        if (response) {
+                            container.append(response); // Append the new posts
+                            page++;
+                            button.text('Load More'); // Restore the button text
+                        } else {
+                            button.text('No more posts'); // Display message when no more posts to load
+                            button.prop('disabled', true); // Disable the button
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </div>
 
 <?php get_footer() ?>

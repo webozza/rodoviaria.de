@@ -184,3 +184,36 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * Load more posts by @webozza
+ */
+add_action('wp_ajax_load_more_posts', 'load_more_posts');
+add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
+
+function load_more_posts()
+{
+    $page = $_POST['page'];
+    $destinations = array(
+        'post_type' => 'destination',
+        'posts_per_page' => 50,
+        'paged' => $page,
+    );
+    $loop = new WP_Query($destinations);
+    ob_start();
+    if ($loop->have_posts()) {
+        while ($loop->have_posts()) {
+            $loop->the_post();
+            ?>
+            <!-- Your post markup here -->
+            <div class="single-post">
+				fadsfsadfsadf
+                <!-- Your post content here -->
+            </div>
+            <?php
+        }
+        wp_reset_postdata();
+    }
+    $response = ob_get_clean();
+    echo $response;
+    wp_die();
+}
