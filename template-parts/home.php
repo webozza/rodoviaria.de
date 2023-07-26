@@ -65,7 +65,7 @@
 
             button.on('click', function () {
                 $.ajax({
-                    url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                    url: '<?php echo 'http://xn--rodoviria-51a.de/wp-admin/admin-ajax.php' ?>',
                     type: 'post',
                     data: {
                         action: 'load_more_posts',
