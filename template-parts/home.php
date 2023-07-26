@@ -7,7 +7,7 @@
         'post_type' => 'destination',
         'posts_per_page' => 50
     );
-    $loopz = new WP_Query($destinations);
+    $loopz = new WP_Query($destinationz);
 ?>
 <div class="main">
     <div class="section section-hero"
