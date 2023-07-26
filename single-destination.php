@@ -7,7 +7,7 @@
     $slug = basename(get_permalink($post_id));
 ?>
 <script>
-    let citySlug = "<?= $post_id ?>";
+    let citySlug = "<?= $slug ?>";
 </script>
 <div class="destination_finder">
 <iframe style="z-index:999;overflow:visible" src="https://onibus.bus.com.br/search-widget-bus" class="single-product-bus-search"></iframe>

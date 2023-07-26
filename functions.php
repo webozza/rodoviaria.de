@@ -151,7 +151,7 @@ function bruno_scripts() {
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array('jquery'), _S_VERSION, true );
 
 	if ( is_singular('destination') ) {
-		wp_enqueue_script( 'main', get_template_directory_uri() . '/js/destination.js', array('jquery'), _S_VERSION, true );
+		wp_enqueue_script( 'destinations', get_template_directory_uri() . '/js/destinations.js', array('jquery'), _S_VERSION, true );
 	}
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
