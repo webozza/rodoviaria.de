@@ -3,10 +3,16 @@
 <?php get_header() ?>
 
 <?php
+    $posts_per_page = 50; // Number of posts to show on the initial page load
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+    $offset = ($paged - 1) * $posts_per_page;
+    
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => 50, // Show 50 posts per page initially
+        'posts_per_page' => $posts_per_page,
+        'offset' => $offset,
     );
+    
     $loop = new WP_Query($destinations);
 ?>
 <div class="main">
