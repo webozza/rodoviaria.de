@@ -6,7 +6,7 @@
     $destinationz = array(
         'post_type' => 'destination',
         'posts_per_page' => 50
-    )
+    );
     $loopz = new WP_Query($destinations);
 ?>
 <div class="main">
