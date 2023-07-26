@@ -65,7 +65,7 @@
 
             button.on('click', function () {
                 $.ajax({
-                    url: '<?php echo 'http://xn--rodoviria-51a.de/wp-admin/admin-ajax.php' ?>',
+                    url: '<?php echo esc_url(admin_url('admin-ajax.php', 'https')); ?>',
                     type: 'post',
                     data: {
                         action: 'load_more_posts',
@@ -88,6 +88,7 @@
             });
         });
     </script>
+
 </div>
 
 <?php get_footer() ?>
