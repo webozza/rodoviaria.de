@@ -53,13 +53,10 @@
                     wp_reset_postdata();
                 ?>   
         </div>
-        <div class="load-more-container">
-              <button class="load-more-button">Load More</button>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
     </div>
+    <div class="load-more-container">
+              <button class="load-more-button">Load More <span class='loading hide'><img  src="<?= get_template_directory_uri()?>/img/loading.gif" alt="" srcset=""></span></button>
+        </div>
 </div>
 
 <?php get_footer() ?>

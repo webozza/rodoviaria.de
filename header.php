@@ -34,6 +34,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'bruno' ); ?></a>
 
 	<header id="masthead" class="site-header">
+
 		<div class="nav-bar">
 			<div class="site-branding">
 				<a href="<?= get_site_url() ?>">
@@ -41,54 +42,10 @@
 				</a>
 			</div>
 			<div class="navigation">
-				<ul>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/bus.svg') ?> Tickets
-					</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/cities.svg') ?>Cities
-					</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/content.svg') ?>Content
-					</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/hotels.svg') ?>Hotels
-						</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/packages.svg') ?>Packages
-					</li>
-				</ul>
-				<div class="menu-toggler">
-				<i class="fa-solid fa-bars"></i>
-				</div>
-
-				<div class="navigation-bottom-bar">
-					<div class="navigation-bottom-bar-text"><p>Enjoy the best online ticket purchase experience.</p></div>
-					<div class="social">
-						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-						<a href="#"><i class="fa-brands fa-instagram"></i></a>
-						<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-					</div>
+				<div class="post-search">
+					<input type="text" placeholder='Search Cities'>
+					<button><i class="fa-solid fa-magnifying-glass"></i></button>
 				</div>
 			</div>
-			<div class="mobile-menu">
-				<ul>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/bus.svg') ?><span>Tickets</span> 
-					</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/cities.svg') ?><span>Cities</span> 
-					</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/content.svg') ?><span>Content</span> 
-					</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/hotels.svg') ?><span>Hotels</span> 
-						</li>
-					<li>
-						<?php include(get_template_directory() . '/img/icons/packages.svg') ?><span>Packages</span> 
-					</li>
-				</div>
-
 		</div>
 	</header><!-- #masthead -->
