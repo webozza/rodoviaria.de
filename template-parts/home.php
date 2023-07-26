@@ -65,9 +65,9 @@
     </div>
     <script>
         jQuery(function ($) {
-            var page = 2; // Start from the second page since the first page is already loaded
             var container = $('.post-container');
             var button = $('#load-more-posts');
+            var currentBatch = parseInt(button.attr('data-batch'));
 
             button.on('click', function () {
                 $.ajax({
@@ -75,7 +75,7 @@
                     type: 'post',
                     data: {
                         action: 'load_more_posts',
-                        page: page,
+                        batch: currentBatch,
                     },
                     beforeSend: function () {
                         button.text('Loading...'); // Display loading text
@@ -83,7 +83,8 @@
                     success: function (response) {
                         if (response) {
                             container.append(response); // Append the new posts
-                            page++;
+                            currentBatch++;
+                            button.attr('data-batch', currentBatch);
                             button.text('Load More'); // Restore the button text
                         } else {
                             button.text('No more posts'); // Display message when no more posts to load

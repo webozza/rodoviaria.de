@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.08' );
+	define( '_S_VERSION', '1.0.09' );
 }
 
 /**
@@ -192,18 +192,18 @@ add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
 
 function load_more_posts()
 {
-    $page = $_POST['page'];
-    $posts_per_page = 50;
-    $offset = ($page - 1) * $posts_per_page;
+    $batch = $_POST['batch'];
+    $posts_per_batch = 50;
+    $offset = ($batch - 1) * $posts_per_batch;
 
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => $posts_per_page,
+        'posts_per_page' => $posts_per_batch,
         'offset' => $offset,
     );
 
     $loop = new WP_Query($destinations);
-	
+
     ob_start();
     if ($loop->have_posts()) {
         while ($loop->have_posts()) {
@@ -234,3 +234,5 @@ function load_more_posts()
     echo $response;
     wp_die();
 }
+
+

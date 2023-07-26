@@ -31,7 +31,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   --main-black: black;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: rgb(0, 0, 0);
   background: var(--primary-yellow);
 }
@@ -71,15 +72,12 @@ body {
   backdrop-filter: blur(5px);
   flex-wrap: wrap;
 }
-.site-branding img{
+.site-branding img {
   width: 230px;
   margin-bottom: -10px;
-
 }
 
-
 .navigation {
-
 }
 
 .post-search {
@@ -93,13 +91,13 @@ body {
   color: white;
   padding: 10px 20px;
 }
-.post-search input::placeholder{
+.post-search input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
-.post-search input:focus-visible{
+.post-search input:focus-visible {
   outline: none;
 }
-.post-search input:active{
+.post-search input:active {
   border: none;
 }
 .post-search button {
@@ -242,17 +240,16 @@ body {
   }
   .logo {
     max-width: 100%;
-    padding-bottom:10px ;
+    padding-bottom: 10px;
   }
   .nav-bar {
     margin: 0;
-
   }
 
   .section-hero {
     margin-right: 0px;
   }
-  .post-search input{
+  .post-search input {
     width: 200px;
   }
 }
@@ -556,26 +553,26 @@ a {
   display: none !important;
 }
 
-
 /* page design  */
-.page-title{
+.page-title {
   text-align: center;
   margin: 60px 0px;
 }
-.page-content{
+.page-content {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-
 }
-.page-content h3{
+.page-content h3 {
   margin-top: 40px;
   font-size: 25px;
-
 }
-.page-content p{
+.page-content p {
   font-size: 16px;
   font-weight: 200;
   color: rgb(62, 62, 62);
   line-height: 1.5rem;
+}
+.load-more-button {
+  cursor: pointer;
 }
