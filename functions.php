@@ -193,12 +193,17 @@ add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
 function load_more_posts()
 {
     $page = $_POST['page'];
+    $posts_per_page = 50;
+    $offset = ($page - 1) * $posts_per_page;
+
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => 50,
-        'paged' => $page,
+        'posts_per_page' => $posts_per_page,
+        'offset' => $offset,
     );
+
     $loop = new WP_Query($destinations);
+	
     ob_start();
     if ($loop->have_posts()) {
         while ($loop->have_posts()) {
