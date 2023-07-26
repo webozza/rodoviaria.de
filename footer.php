@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		<div class="footer_bottom">
-			<span><a href="#">PRIVACY,</a></span> <span><a href="#">TERMS & CONDITIONS</a></span>
+			<span><a href="<?= get_site_url()?>/privacy-policy">PRIVACY,</a></span> <span><a href="<?= get_site_url()?>/terms-and-conditions">TERMS & CONDITIONS</a></span>
 		 and powered by <span><a href="bus.com.br" target="_blank" rel="noopener noreferrer">BUS.com.br</a></span>
 		</div>
 	</div>
