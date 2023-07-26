@@ -593,6 +593,12 @@ a {
   border-spacing: 10px 10px;
 }
 
+.fuck h4 {
+  font-family: "Gilroy", Sans-serif;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
 .fuck td {
   border-width: 0 0px 0px 0;
   box-shadow: 0px 1px 2px #3333334d;
@@ -618,6 +624,11 @@ a.city-view-more {
 
 .fuck tr.active {
   display: table-row;
+}
+
+.fuck .card a {
+  color: var(--primary-blue);
+  font-size: 14px;
 }
 
 /* For extremely small screen devices (595px and below) */
