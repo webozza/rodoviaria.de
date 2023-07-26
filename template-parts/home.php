@@ -5,7 +5,7 @@
 <?php
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => 50, // Show 50 posts per page initially
+        'posts_per_page' => 49, // Show 50 posts per page initially
     );
     $loop = new WP_Query($destinations);
 ?>
