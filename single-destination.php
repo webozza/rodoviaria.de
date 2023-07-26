@@ -2,6 +2,13 @@
 <div class="post_banner">
     <h3><?php the_title() ?> : Buy Bus Ticket Cheaper</h3>
 </div>
+<?php
+    $post_id = get_the_ID();
+    $slug = basename(get_permalink($post_id));
+?>
+<script>
+    let citySlug = "<?= $post_id ?>";
+</script>
 <div class="destination_finder">
 <iframe style="z-index:999;overflow:visible" src="https://onibus.bus.com.br/search-widget-bus" class="single-product-bus-search"></iframe>
 </div>
@@ -37,6 +44,7 @@
         </p>
         </div>
       </div>
+      <div class="load-fuck"></div>
       <div class="faq-container">
         <?php include('faq.php')?>
       </div>
