@@ -391,38 +391,7 @@ a {
   right: 20px;
   top: 45px;
 }
-.prev,
-.next {
-  height: 24px;
-  width: 46px;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 10px 4px #e8efed;
-  color: var(--primary-yellow);
-  margin: 0 5px;
-}
-.prev {
-  border-radius: 0 16px 0 16px;
-}
-.next {
-  border-radius: 16px 0px 16px 0px;
-}
 
-span.swiper-pagination-bullet {
-  width: 90px;
-  background-color: transparent;
-  border-radius: 5px;
-  border: 2px solid var(--primary-yellow)ed;
-}
-
-.swiper-pagination {
-  position: relative;
-}
-.swiper-pagination-bullet-active {
-  background-color: var(--primary-yellow) !important;
-}
 
 /* 
                          Single post page design 

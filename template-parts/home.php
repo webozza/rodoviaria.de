@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <a class="post-link" href="<?= get_permalink()?>">
-                    <div><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                    <div><img src="<?= get_template_directory_uri()?>/img/icons/botao.png " alt=""></div>
                 </a>
             </div>
             <?php
