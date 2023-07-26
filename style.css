@@ -581,6 +581,9 @@ a {
   font-weight: 600;
   font-size: 18px;
   color: var(--primary-blue);
+  width: 90%;
+  padding: 20px;
+  margin: auto;
 }
 
 .fuck {
