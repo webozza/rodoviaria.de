@@ -192,13 +192,13 @@ add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
 
 function load_more_posts()
 {
-    $batch = $_POST['batch'];
-    $posts_per_batch = 50;
-    $offset = ($batch - 1) * $posts_per_batch;
+    $page = $_POST['page'];
+    $posts_per_page = 50;
+    $offset = ($page - 1) * $posts_per_page;
 
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => $posts_per_batch,
+        'posts_per_page' => $posts_per_page,
         'offset' => $offset,
     );
 
@@ -234,5 +234,6 @@ function load_more_posts()
     echo $response;
     wp_die();
 }
+
 
 

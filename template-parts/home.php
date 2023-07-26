@@ -3,16 +3,16 @@
 <?php get_header() ?>
 
 <?php
-    $posts_per_page = 50; // Number of posts to show on the initial page load
+    $posts_per_batch = 50; // Number of posts to show in each batch
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-    $offset = ($paged - 1) * $posts_per_page;
-    
+    $offset = ($paged - 1) * $posts_per_batch;
+
     $destinations = array(
         'post_type' => 'destination',
-        'posts_per_page' => $posts_per_page,
+        'posts_per_page' => $posts_per_batch,
         'offset' => $offset,
     );
-    
+
     $loop = new WP_Query($destinations);
 ?>
 <div class="main">
@@ -67,7 +67,7 @@
         jQuery(function ($) {
             var container = $('.post-container');
             var button = $('#load-more-posts');
-            var currentBatch = parseInt(button.attr('data-batch'));
+            var currentPage = parseInt(button.attr('data-current-page'));
 
             button.on('click', function () {
                 $.ajax({
@@ -75,7 +75,7 @@
                     type: 'post',
                     data: {
                         action: 'load_more_posts',
-                        batch: currentBatch,
+                        page: currentPage,
                     },
                     beforeSend: function () {
                         button.text('Loading...'); // Display loading text
@@ -83,8 +83,8 @@
                     success: function (response) {
                         if (response) {
                             container.append(response); // Append the new posts
-                            currentBatch++;
-                            button.attr('data-batch', currentBatch);
+                            currentPage++;
+                            button.attr('data-current-page', currentPage);
                             button.text('Load More'); // Restore the button text
                         } else {
                             button.text('No more posts'); // Display message when no more posts to load
