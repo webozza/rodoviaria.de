@@ -654,7 +654,7 @@ a.city-view-more {
   }
 }
 
-loadLocation {
+.loadLocation {
   background-color: white;
   border-radius: 10px;
   padding: 20px;
