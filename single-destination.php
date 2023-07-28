@@ -1,6 +1,6 @@
 <?php get_header() ?>
 <div class="post_banner">
-    <h3><?php the_title() ?> : Buy Bus Ticket Cheaper</h3>
+    <h3><?php the_title() ?> : TERMINAL RODOVIÁRIO</h3>
 </div>
 <?php
     $post_id = get_the_ID();
