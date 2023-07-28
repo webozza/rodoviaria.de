@@ -23,15 +23,17 @@ get_header();
 				</h1>
 			</header><!-- .page-header -->
 
+			<div class="post-container">
 			<?php
 			/* Start the Loop */
-			<div class="post-container"></div>
 			while ( have_posts() ) :
 				the_post();
 				get_template_part( 'template-parts/content', 'search' );
 
 			endwhile;
-
+			?>
+			</div>
+			<?php
 			//the_posts_navigation();
 
 		else :
