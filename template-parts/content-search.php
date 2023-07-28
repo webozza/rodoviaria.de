@@ -41,11 +41,11 @@
 		<?php endif; ?>
 	</header> -->
 
-	<?php bruno_post_thumbnail(); ?>
+	<!-- <?php bruno_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+	</div> -->
 
 	<footer class="entry-footer">
 		<?php bruno_entry_footer(); ?>
