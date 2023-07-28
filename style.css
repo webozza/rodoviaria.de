@@ -261,11 +261,9 @@ body {
 .post-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center !important;
 }
-.home .post-slider .post-container,
-.home .post-slider .slider-title {
-  justify-content: center;
-}
+
 .single-post {
   max-width: 370px;
   border-radius: 38px 0px 46px 0px;
