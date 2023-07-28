@@ -25,6 +25,7 @@ get_header();
 
 			<?php
 			/* Start the Loop */
+			<div class="post-container"></div>
 			while ( have_posts() ) :
 				the_post();
 				get_template_part( 'template-parts/content', 'search' );

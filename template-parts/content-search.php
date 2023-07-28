@@ -8,7 +8,6 @@
  */
 
 ?>
-<div class="post-container">
 <article  id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="single-post">
                 <a href="<?= get_permalink() ?>">
@@ -29,5 +28,4 @@
                 </a>
             </div>
 </article>
-</div>
 <!-- #post-<?php the_ID(); ?> -->
