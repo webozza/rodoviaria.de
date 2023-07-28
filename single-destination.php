@@ -58,11 +58,11 @@ let citySlug = "<?= $slug ?>";
         </p>
     </div>
 </div>
+<div class="loadLocation"></div>
 <div class="load-fuck"></div>
 <div class="faq-container">
     <?php include('faq.php')?>
 </div>
-<div class="loadLocation"></div>
 </div>
 </div>
 
