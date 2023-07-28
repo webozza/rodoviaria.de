@@ -62,6 +62,7 @@ let citySlug = "<?= $slug ?>";
 <div class="faq-container">
     <?php include('faq.php')?>
 </div>
+<div class="loadLocation"></div>
 </div>
 </div>
 
