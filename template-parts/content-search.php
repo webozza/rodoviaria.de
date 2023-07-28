@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="post-container" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="single-post">
                 <a href="<?= get_permalink() ?>">
                     <?php $thumbnail_url =  get_the_post_thumbnail_url(get_the_ID(), 'full');
