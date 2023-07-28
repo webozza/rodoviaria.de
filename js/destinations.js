@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
   let loadOn = $(".load-fuck");
   loadOn.load(`https://www.bus.com.br/cidades/${citySlug}/ .fuck`);
   let loadDestination =$('.loadLocation')
-  loadDestination.load(`https://www.bus.com.br/cidades/${citySlug}/ .elementor-element-71496b3 .elementor-shortcode' `);
+  loadDestination.load(`https://www.bus.com.br/cidades/${citySlug}/ .elementor-element-71496b3`);
 
   // function loadTableRows(url, callback) {
   //   $.get(url, function (response) {
