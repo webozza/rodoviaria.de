@@ -35,8 +35,9 @@
         </div>
     </div>
 
-    <div class="faq-item" <h3 class="question">A rodoviária de <?php the_field('destination') ?> tem guichê?
-        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    <div class="faq-item">
+        <h3 class="question">A rodoviária de <?php the_field('destination') ?> tem guichê?
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
         </h3>
         <div class="answer">
             Existe guichê de uma ou mais empresas na rodoviária de <?php the_field('destination') ?>. Elas operam de
