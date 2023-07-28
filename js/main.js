@@ -20,6 +20,7 @@ $(document).ready(function () {
     $(".post-search button").click(function () {
       $(".search-form").submit();
     });
+    $(".search-field").attr("placeholder", "Busca");
   };
   searchBar();
 });

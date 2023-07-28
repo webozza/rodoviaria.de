@@ -24,7 +24,7 @@
     </div>
     <div class="post-slider">
         <div class="slider-title">
-            <h2>Popular<br> destinations</h2>
+            <h2>Destinos<br> populares</h2>
             <div class='divider-x'></div>
         </div>
         <div class='post-container'>
