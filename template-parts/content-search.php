@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="single-post">
-                <a href="%s">
+                <a href="<?= get_permalink() ?>">
                     <?php $thumbnail_url =  get_the_post_thumbnail_url(get_the_ID(), 'full');
                     ?>
                     <img src="<?php echo $thumbnail_url; ?>" alt="Featured Image">
@@ -28,8 +28,8 @@
                     </a>
                 </a>
             </div>
-
-	<header class="entry-header">
+			
+	<!-- <header class="entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
@@ -37,9 +37,9 @@
 			bruno_posted_on();
 			bruno_posted_by();
 			?>
-		</div><!-- .entry-meta -->
+		</div>
 		<?php endif; ?>
-	</header><!-- .entry-header -->
+	</header> -->
 
 	<?php bruno_post_thumbnail(); ?>
 
