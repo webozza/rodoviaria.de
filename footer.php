@@ -20,8 +20,7 @@
 			</div>
 		</div>
 		<div class="footer_bottom">
-		<span><a href="<?= get_site_url()?>/privacy-policy">POLÍTICA DE PRIVACIDADE,</a></span> <span><a href="<?= get_site_url()?>/terms-and-conditions">TERMOS E CONDIÇÕES</a></span>
-e desenvolvido por <span><a href="bus.com.br" target="_blank" rel="noopener noreferrer">BUS.com.br</a></span>
+			<span>© Todos direitos reservados a BUS.com.br 2023</span>
 		</div>
 	</div>
 	</footer>
