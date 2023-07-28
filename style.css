@@ -653,3 +653,12 @@ a.city-view-more {
     height: 290px;
   }
 }
+
+loadLocation {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
