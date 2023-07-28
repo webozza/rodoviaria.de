@@ -7,48 +7,62 @@
     $slug = basename(get_permalink($post_id));
 ?>
 <script>
-    let citySlug = "<?= $slug ?>";
+let citySlug = "<?= $slug ?>";
 </script>
 <div class="destination_finder">
-<iframe style="z-index:999;overflow:visible" src="https://onibus.bus.com.br/search-widget-bus" class="single-product-bus-search"></iframe>
+    <iframe style="z-index:999;overflow:visible" src="https://onibus.bus.com.br/search-widget-bus"
+        class="single-product-bus-search"></iframe>
 </div>
 <div class="post_container">
-<div class="post_title">
-    <i class="fa-solid fa-location-dot"></i>
-    <h2><?php the_title() ?></h2>
-</div>
-<div class="post_content">
-        <p><strong>Everything you need to know about the <?php the_field('destination') ?> bus station!</strong></p>
-
-
-        <p>
-            Welcome to Rodoviária.de, your complete source of information about bus stations in almost all of Brazil! Here, you'll find comprehensive details on a number of Bus Terminals, including <?php the_field('destination') ?>.
-        </p>
-        <p>
-            With our website, you will have access to essential information, such as contact, infrastructure, restrooms and location of the <?php the_field('destination') ?> bus station. Knowing all this is essential to plan a smooth trip, whether traveling alone or with a partner.
-        </p>
-        <p>
-            Here you will find specific details about the structure of the <?php the_field('destination') ?> bus station, allowing you to prepare for any eventuality during your stay at the terminal. It doesn't matter if your trip is already booked to <?php the_field('destination') ?> or if you need to make a bus connection there, our website has all the important information for you.
-        </p>
-        <p>
-            For families traveling together, our detailed information will help you to perfectly prepare for any needs that may arise during your visit to the <?php the_field('destination') ?> Bus Terminal.
-        </p>
-        <p> 
-            We know that traveling by bus can be an unforgettable experience and that it is often more than just getting to your destination. It is the journey that allows us to contemplate the landscapes of Brazil, appreciate cultural diversity and create valuable memories. 
-        </p>
-        <p>
-            With Rodoviária.de, you will have access to the best information with the minimum of effort. Our platform was designed to make searching for details about bus stations as simple and efficient as possible.
-        </p>
-        <p>
-            Therefore, if you are planning your trip to <?php the_field('destination') ?> or any other destination, count on us to provide reliable and complete information about bus stations throughout Brazil. Travel with peace of mind, knowing that we have everything you need to make your travel experience the best it can be. We are here to help you every step of the way. Bon voyage!
-        </p>
-        </div>
-      </div>
-      <div class="load-fuck"></div>
-      <div class="faq-container">
-        <?php include('faq.php')?>
-      </div>
+    <div class="post_title">
+        <i class="fa-solid fa-location-dot"></i>
+        <h2><?php the_title() ?></h2>
     </div>
+    <div class="post_content">
+        <p><strong>Tudo que você precisa saber sobre a rodoviária de <?php the_field('destination') ?> </strong></p>
+        <p>
+            Bem-vindo ao Rodoviária.de, sua fonte completa de informações sobre rodoviárias em quase todo o Brasil!
+            Aqui, você encontrará detalhes abrangentes sobre diversos Terminais Rodoviários, incluindo o de
+            <?php the_field('destination') ?>.
+        </p>
+        <p>
+            Com o nosso site, você terá acesso a informações essenciais, como contato, infraestrutura, banheiros e
+            localização da rodoviária de <?php the_field('destination') ?>. Saber tudo isso é fundamental para planejar
+            uma viagem tranquila, seja viajando sozinho ou acompanhado.
+        </p>
+        <p>
+            Aqui, você encontrará detalhes específicos sobre a estrutura da rodoviária de
+            <?php the_field('destination') ?>, permitindo que você se prepare para qualquer eventualidade durante a sua
+            estadia no terminal. Não importa se a sua viagem já está marcada para <?php the_field('destination') ?> ou
+            se você precisará fazer uma conexão de ônibus lá, nosso site tem todas as informações importantes para você.
+        </p>
+        <p>
+            Para famílias que viajam juntas, nossas informações detalhadas irão ajudá-lo a se preparar perfeitamente
+            para quaisquer necessidades que possam surgir durante a sua visita ao Terminal Rodoviário de
+            <?php the_field('destination') ?>.
+        </p>
+        <p>
+            Sabemos que a viagem de ônibus pode ser uma experiência inesquecível e que muitas vezes é mais do que
+            simplesmente chegar ao destino. É a jornada que nos permite contemplar as paisagens do Brasil, apreciar as
+            diversidades culturais e criar memórias valiosas.
+        </p>
+        <p>
+            Com o Rodoviária.de, você terá acesso às melhores informações com o mínimo de esforço. Nossa plataforma foi
+            projetada para tornar a busca por detalhes sobre as rodoviárias o mais simples e eficiente possível.
+        </p>
+        <p>
+            Portanto, se você está planejando sua viagem para <?php the_field('destination') ?> ou qualquer outro
+            destino, conte conosco para fornecer informações confiáveis e completas sobre as rodoviárias em todo o
+            Brasil. Viaje com tranquilidade, sabendo que temos tudo o que você precisa para tornar sua experiência de
+            viagem a melhor possível. Estamos aqui para ajudá-lo em cada passo da sua jornada. Boa viagem
+        </p>
+    </div>
+</div>
+<div class="load-fuck"></div>
+<div class="faq-container">
+    <?php include('faq.php')?>
+</div>
+</div>
 </div>
 
 <?php get_footer() ?>
