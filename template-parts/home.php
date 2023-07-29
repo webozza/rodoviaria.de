@@ -58,7 +58,7 @@
         </div>
     </div>
     <div class="load-more-container">
-            <button id="load-more-posts" class="load-more-button">Load More <span class='loading hide'><img  src="<?= get_template_directory_uri()?>/img/loading.gif" alt="" srcset=""></span></button>
+            <button id="load-more-posts" class="load-more-button">Carregar Mais<span class='loading hide'><img  src="<?= get_template_directory_uri()?>/img/loading.gif" alt="" srcset=""></span></button>
     </div>
     <script>
         jQuery(function ($) {
