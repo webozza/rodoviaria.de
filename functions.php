@@ -210,7 +210,7 @@ function load_more_posts()
             $loop->the_post();
             ?>
 <!-- Your post markup here -->
-<div class="single-post">
+<div class="custom-single-post">
     <a href="<?= get_permalink() ?>">
         <?php $thumbnail_url =  get_the_post_thumbnail_url(get_the_ID(), 'full');
 					?>
